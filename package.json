@@ -13,7 +13,7 @@
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",
     "test": "jest",
-    "build": "'npm run clean && rollup -c','./node_modules/rimraf/bin.js'",
+    "build": "'npm run clean && rollup -c''./node_modules/rimraf/bin.js'",
     "build:ssr": "rollup --config build/rollup.config.js --format cjs",
     "build:es": "rollup --config build/rollup.config.js --format es",
     "build:unpkg": "rollup --config build/rollup.config.js --format iife",
